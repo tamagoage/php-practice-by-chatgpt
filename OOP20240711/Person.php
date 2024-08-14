@@ -1,4 +1,7 @@
 <?php
+
+namespace tamagoage\PhpPracticeByChatgpt;
+
 class Person {
     public $name;
     public $age;
