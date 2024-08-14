@@ -1,8 +1,6 @@
 <?php
 namespace tamagoage\PhpPracticeByChatgpt;
 
-require_once __DIR__ . '/../vendor/autoload.php';
-
 use tamagoage\PhpPracticeByChatgpt\Person;
 
 class BirthdayParty {
@@ -17,9 +15,3 @@ class BirthdayParty {
         }
     }
 }
-
-$rouge = new Person("るーじゅ", 10);
-$array = [];
-array_push($array, $rouge);
-$rougeParty = new BirthdayParty($array);
-$rougeParty->celebrateAll();

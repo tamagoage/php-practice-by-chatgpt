@@ -21,6 +21,3 @@ class Person {
         return $this->age;
     }
 }
-
-$person = new Person("John", 20);
-echo $person->celebrateBirthday();
