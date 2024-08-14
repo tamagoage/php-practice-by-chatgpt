@@ -1,0 +1,14 @@
+{
+    "name": "tamagoage/php-practice-by-chatgpt",
+    "autoload": {
+        "psr-4": {
+            "tamagoage\\PhpPracticeByChatgpt\\": "OOP20240711/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tamagoage"
+        }
+    ],
+    "require": {}
+}
