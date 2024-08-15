@@ -3,8 +3,8 @@
 namespace tamagoage\PhpPracticeByChatgpt;
 
 class Person {
-    public $name;
-    public $age;
+    public string $name;
+    public int $age;
 
     public function __construct($name, $age) 
     {
