@@ -4,6 +4,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use tamagoage\PhpPracticeByChatgpt\Person;
 use tamagoage\PhpPracticeByChatgpt\BirthdayParty;
 use tamagoage\PhpPracticeByChatgpt\Student;
+use tamagoage\PhpPracticeByChatgpt\Course;
 
 function Person() {
     $person = new Person("John", 20);
@@ -21,4 +22,9 @@ function BirthdayParty() {
 function Student() {
     $rouge = new Student("るーじゅ", 10, "ふじとみ");
     echo $rouge->StudentIntroduce();
+}
+
+function Course() {
+    $ballSearch = new Course("ボール探し", "探索の能力を高める(?)");
+    echo $ballSearch->getDetails();
 }
