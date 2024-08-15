@@ -5,6 +5,7 @@ use tamagoage\PhpPracticeByChatgpt\Person;
 use tamagoage\PhpPracticeByChatgpt\BirthdayParty;
 use tamagoage\PhpPracticeByChatgpt\Student;
 use tamagoage\PhpPracticeByChatgpt\Course;
+use tamagoage\PhpPracticeByChatgpt\Grade;
 
 function Person() {
     $person = new Person("John", 20);
@@ -27,4 +28,9 @@ function Student() {
 function Course() {
     $ballSearch = new Course("ボール探し", "探索の能力を高める(?)");
     echo $ballSearch->getDetails();
+}
+
+function Grade() {
+    $rougeGrade = new Grade(new Student("るーじゅ", 10, "ふじとみ"), "ボール探し", 90);
+    echo $rougeGrade->getGrade();
 }
